@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-api
+  description: |
+    Example is an open-source demonstration API.
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: goenning/backstage-example-app
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: goeninng
+  lifecycle: experimental
