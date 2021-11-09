@@ -1,0 +1,13 @@
+site_name: 'Example App'
+site_description: 'Main documentation for the Example App'
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Overview:
+      - What is Example App?: 'overview/what-is-this.md'
+      - Architecture overview: 'overview/architecture-overview.md'
+  - Getting Started:
+      - Getting Started: 'getting-started/index.md'
+      - Create an App: 'getting-started/create-an-app.md'
